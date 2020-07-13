@@ -1,0 +1,65 @@
+/*
+* Markdown Parser by Green_Lab
+*/
+
+.md-container {
+  background-color: #fff;
+}
+
+.md-text {
+  color: #000;
+}
+
+.md-italic {
+  font-style: italic;
+}
+
+.md-bold {
+  font-weight: bold;
+}
+
+.md-a {
+  color: #3db7d9;
+  text-decoration: none;
+}
+
+.md-a:hover {
+  color: #0ea3cc;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.md-a:hover::after {
+  content: url('a.svg');
+  /* color: rgb(113, 113, 113) !important;
+  text-decoration: none !important;
+  content: "🔗" !important; */
+}
+
+.md-h1 {
+
+}
+
+.md-h2 {
+
+}
+
+.md-h3 {
+
+}
+
+.md-h4 {
+
+}
+
+.md-h5 {
+
+}
+
+.md-h6 {
+
+}
+
+.md-h {
+
+}
